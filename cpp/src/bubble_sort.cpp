@@ -11,7 +11,6 @@ int main() {
         for (int j = 0; j < my_vector_size - 1; j++){
 
             // Swap adjacent values if left is greater than right
-	    // test comment
             if (my_vector[j] > my_vector[j+1]){
                 std::swap(my_vector[j], my_vector[j+1]);
             }
